@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#carouselExemple {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 0px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+   }
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+    border: solid 5px black;
+    background-color: red;
+}
+footer p {
+    margin: 0;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 10px;
+}
+.link-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.facebook-logo{
+    margin-right: 10px;
+}
+.linkedIn-logo{
+    margin-right: 10px;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    height: 60px;
+}
+.main-header nav{
+    margin-right: 167px;
+}
+.main-header h1{
+    margin-left: 167px;
+    margin-top: 5px;
+}
+.header-link {
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: large; 
+}
+.header-link a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.pizza-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 200px;
+}
+.pizza-boxes img{
+    width: 180px;
+    height: 150px;
+}
+.margherita-boxe{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.pizza-boxes h2{
+    font-style: italic;
+}
+.pizza-boxes p {
+    height: 60px;
+}
+.pizza-boxes span{
+margin-top: 20px;
+color: red;
+font-size: large;
+font-weight: bold;
+}
+.Vegetarian-boxe{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.Neptune-boxe{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.pepperoni-boxe{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.chicken-boxe{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.Jambon-boxe{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.Viande-hachée-boxe{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.Fruit-de-mer-boxe{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.Hawaïenne{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.Fromages{
+    width: 187px;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bold;
+}
+.remove-button{
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: red;
+    font-weight: bold;
+}
+.Title{
+    text-align: center;
+    margin-bottom: 0;
+}
+.Title + p{
+    text-align: center;
+    margin-top: 0;
+    text-transform: lowercase;
+    font-style: italic;
+}
+.lieux{
+    margin-left: 10px;
+}
+.button-valider{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: red;
+    background-color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.Commande-final{
+    margin-right: 167px;
+    margin-left: 167px;
+}
+.commande-details{
+    display: flex;
+    justify-content: space-between  ;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.Total-commande{
+    text-align: right;
+    font-size: 25px;
+}
